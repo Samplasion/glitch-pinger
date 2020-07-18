@@ -1,16 +1,19 @@
-# Samplasion
-wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://plumbot.glitch.me/"
-wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://plumbeta.glitch.me/"
+call() {
+    wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "$1" --no-check-certificate
+}
 
 # tee
-wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://luigibeta.glitch.me/"
-wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://sapphire-stem.glitch.me/"
+call "https://luigibeta.glitch.me/"
+call "https://sapphire-stem.glitch.me/"
 
 # Miky88
-wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://cenzorebot.glitch.me/"
-# Temporary Deprecation wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://mikytelegram.glitch.me/"
-wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://spqrbot.glitch.me/"
-# 503: wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://tfg.glitch.me/"
+call "https://cenzorebot.glitch.me/"
+# Temporarily deprecated call "https://mikytelegram.glitch.me/"
+call "https://spqrbot.glitch.me/"
 
 # MoonlightCapital
-wget -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393" "https://lab-votes.glitch.me/"
+call "https://lab-votes.glitch.me/"
+
+# Darwish
+call "https://darwish-discord-relay-bot.glitch.me/"
+call "https://darwish-discord-relay-bot-2.glitch.me/"
