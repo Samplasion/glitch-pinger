@@ -8,7 +8,7 @@ call "https://sapphire-stem.glitch.me/"
 
 # Miky88
 call "https://cenzorebot.glitch.me/"
-call "https://mikytelegram.glitch.me/"
+# Temporarily deprecated call "https://mikytelegram.glitch.me/"
 call "https://spqrbot.glitch.me/"
 
 # MoonlightCapital
