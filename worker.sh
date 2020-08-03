@@ -3,7 +3,7 @@ call() {
 }
 
 # tee
-call "https://luigibeta.glitch.me/"
+#call "https://luigibeta.glitch.me/"
 call "https://sapphire-stem.glitch.me/"
 
 # Miky88
